@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Virtual Learning Environment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+  
+    <!--  <div id="mainPage"></div> 
+
+The <canvas> will be inserted here -->
+<script type="importmap">
+  {
+    "imports": {
+      "three": "../libs/three.module.js",
+      "three/addons/": "../libs/jsm/"
+    }
+  }
+</script>
+
+
+<script type="module" src="VirtualLecture.js"></script>
+
+<div id="container">
+  <video id="video"  webkit-playsinline style="display:none" preload="auto" >
+  <source src="../assetsA/VideoEV.mp4" type='video/mp4; codecs="avc1.640020, mp4a.40.2"'>
+ </video>
+</div>
+
+
+
+</body>
+</html>
+
